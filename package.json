@@ -1,0 +1,28 @@
+{
+  "name": "on-element-resize",
+  "version": "1.0.0",
+  "description": "Smart monitoring of DOM changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "ci": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yao-JSON/on-element-resize.git"
+  },
+  "keywords": [
+    "dom",
+    "resize"
+  ],
+  "author": "yjson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yao-JSON/on-element-resize/issues"
+  },
+  "homepage": "https://github.com/Yao-JSON/on-element-resize#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "coveralls": "^3.0.2"
+  }
+}
